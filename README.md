@@ -1,30 +1,37 @@
-# Weather Fetcher Application
+# Weather App
 
-The **Weather Fetcher Application** fetches real-time weather data from the **OpenWeather API**, processes and stores it in a MySQL database, and provides an API endpoint for retrieving stored weather data for specific cities.
+## Project Overview
+
+This project fetches weather data from the OpenWeather API and stores it in a MySQL database. It provides an endpoint to retrieve weather data for a specific city, including temperature, humidity, and weather description. The application is built using **PHP**, and it includes a simple API for weather data retrieval.
+
+---
 
 ## Features
 
-- **Fetch weather data** for a specified city from the OpenWeather API.
-- **Store weather data** in a MySQL database, including city, temperature, humidity, and description.
-- **Retrieve stored weather data** via a RESTful API endpoint.
-- **Automatic data updates** via a cron job for periodic updates every 30 minutes.
+- Fetches weather data from the OpenWeather API.
+- Stores weather data (city, temperature, humidity, description) in a MySQL database.
+- Provides an endpoint to retrieve stored weather data for any given city.
+- Automatically fetches and updates the weather data every 30 minutes using a cron job.
+
+---
 
 ## Prerequisites
 
-Ensure the following are installed on your machine:
+To run this project on your local machine, you need to have the following installed:
 
-- **PHP** version >= 7.4
-- **MySQL** or **MariaDB**
-- **XAMPP** or a similar local server stack (for running the application locally)
-- A **valid OpenWeather API key** (you can get one [here](https://openweathermap.org/api)).
+- [XAMPP](https://www.apachefriends.org/index.html) or a similar local server (Apache, MySQL, PHP).
+- [PHP](https://www.php.net/).
+- [MySQL](https://www.mysql.com/) (comes with XAMPP).
+- A **valid OpenWeather API key** (get it from [OpenWeather](https://openweathermap.org/api)).
+
+---
 
 ## Installation
 
-### Step 1: Clone the Repository
+### 1. Clone the repository
 
-Clone this repository to your local machine:
+Clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/Muhammedjasim961/Php-project
-cd new_weather_db
+git clone https://github.com/Muhammedjasim961/Php-project.git
 ```
