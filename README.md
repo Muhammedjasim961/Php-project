@@ -25,6 +25,6 @@ Ensure the following are installed on your machine:
 Clone this repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/weather-fetcher.git
-cd weather-fetcher
+git clone https://github.com/Muhammedjasim961/Php-project
+cd new_weather_db
 ```
